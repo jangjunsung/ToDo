@@ -1,0 +1,22 @@
+[let 과 const 차이]
+let : 변수 재선언 불가능, 재할당 가능
+const : 변수 재선언 불가능, 재할당 불가능
+
+● JSON.stringify(Object) // Object 및 Json 형태의 파일 읽는 함수
+
+● [문자열 포함여부]
+ - includes() : 해당 문자열에 포함여부를 Boolean으로 반환
+ ex) str.includes("문자열");
+
+● [문자열 변환(리플레이스)]
+ - replace() : 해당 문자를 원하는 문자로 변환
+ ex) str.replace('찾는문자', '바꿀문자');
+ 
+● [test() 정규식 포함여부]
+  - test() : 정규식 선언 후 포함여부 반환
+  ex) let regex = /[a-zA-Z]{5},/;
+		console.log('1: ' + regex.test('Hello,'));
+
+● [이벤트 제거 (Jquery)]
+    $("#셀렉트").off();
+
